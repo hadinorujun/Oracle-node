@@ -1,0 +1,14 @@
+{
+  "name": "oracle-node",
+  "version": "1.0.0",
+  "description": "Oracle Node untuk mengambil data sepak bola, cuaca, dan berita",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "node-cron": "^2.0.3",
+    "dotenv": "^10.0.0"
+  }
+}
