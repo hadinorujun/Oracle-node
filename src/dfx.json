@@ -1,0 +1,24 @@
+{
+  "canisters": {
+    "oracle": {
+      "type": "motoko",
+      "main": "src/oracle/oracle.mo",
+      "candid": "src/oracle/oracle.did",
+      "wasm": "src/oracle/.dfx/local/canisters/oracle/oracle.wasm.gz",
+      "assets": "src/oracle_assets"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    },
+    "ic": {
+      "providers": [
+        "https://ic0.app"
+      ],
+      "type": "persistent"
+    }
+  },
+  "version": 1
+}
